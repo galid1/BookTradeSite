@@ -1,0 +1,71 @@
+#header{
+    width : 300px;
+    margin-left: auto;
+    margin-right : 130px;
+    margin-top : 50px;
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+
+#table-container{
+  border-top : 2px solid rgba(0,0,0);
+  border-bottom: 2px solid rgba(192,192,192);
+  margin : 0 auto;
+  width : 1000px;
+}
+
+#table{
+  width : 100%;
+  border-collapse : collapse;
+}
+  tr:not(#table-head):hover{
+    background-color : rgba(192,192,192,0.9);
+  }
+  th{
+    border-bottom : 1px solid rgba(192,192,192);
+    padding: 5px;
+  }
+
+  td{
+    border-bottom : 1px solid rgba(192,192,192);
+    padding: 7px;
+  }
+
+#total > div {
+  width : 300px;
+  margin-top : 10px;
+  margin-left: auto;
+  margin-right : 150px;
+  font-weight: 700;
+}
+
+#menu{
+  display:flex;
+  width : 300px;
+  margin-top : 10px;
+  margin-left: auto;
+}
+
+#menu > div{
+  background-color: rgba(192,192,192);
+  text-align: center;
+  width : 50px;
+  padding: 5px;
+  margin : 0 10px;
+}
+
+#menu > div :hover {
+  font-weight: 700;
+  color : rgba(255,255,255);
+}
+
+#menu > div > button {
+  width : 50px;
+  height : 30px;
+  color : rgba(192,192,192, 0.8);
+}
+
+#bookimg{
+  width: 60px;
+  height : 60px;
+}

@@ -1,0 +1,144 @@
+
+.text-uppercase {
+    text-transform: uppercase!important;
+}
+
+.navbar{
+  display:flex;
+	z-index : 1000;
+	background-color: rgba(0,0,0,0.3);
+	margin-top: -10px;
+	margin-left: -10px;
+}
+
+.navbar-lists{
+  font-size : 21px;
+	font-weight : bold;
+	color : white;
+	style : text-decoration:none;
+}
+
+.navbar-item{
+  display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.navbar-lists2{
+  position: absolute;
+  list-style-type: none;
+  padding-left: 0px;
+  display: none;
+}
+.navbar-lists > li:hover > ul {
+  display: block;
+}
+
+.user-info{
+  color : white;
+
+}
+
+#navbar-link {
+	color : rgba(255,255,255,0.7);
+}
+
+#navbar-link:hover{
+  color : white;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+body{
+	padding-top: 50px;
+	background-color: #fff;
+}
+
+.header{
+	z-index : 0;
+	padding: 20em;
+  background-image: url('/img/main/header_bg.jpg');
+	background-size: cover;
+  opacity : 0.9;
+}
+
+.counter{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.market-head{
+	padding: 150px;
+	text-align: center;
+	font-weight: 700;
+	font-size: 40px;
+	background-color: rgba(192,192,192,0.3);
+}
+
+#market{
+	padding: 100px 0;
+	width: 1300px;
+	margin : 0 auto;
+	text-align: center;
+	display : flex;
+	background: rgba(255,255,255,0.5);
+}
+
+#market > div{
+	font-weight: 700;
+	flex: 0 0 33.333333%;
+	max-width: 33.333333%;
+}
+
+#market > div > a > img{
+	width : 15em;
+	height : 15em;
+	border-radius: 100%;
+}
+
+.professors-head{
+	padding: 150px;
+	text-align: center;
+	font-weight: 700;
+	font-size: 40px;
+	background-color: rgba(192,192,192,0.3);
+}
+
+#professors {
+	display : flex;
+	flex-direction: column;
+	padding: 100px 0;
+	width: 1300px;
+	margin : 0 auto;
+}
+
+#professors > h3{
+	font-weight: 700;
+	font-size: 30px;
+	padding-left: 50px;
+	padding-bottom: 20px;
+}
+
+#professors > div{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 100px;
+  width: 1300px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+}
+
+#professors > div > div{
+	display: flex;
+	padding-bottom: 100px;
+	font-weight: 700;
+	flex: 0 0 33.333333%;
+	max-width: 33.333333%;
+}
